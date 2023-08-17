@@ -1,7 +1,7 @@
-git+https://github.com/Giphy/giphy-python-client
-git+https://github.com/AbhishekSalian/Random-Word-Generator
-git+https://github.com/Pycord-Development/pycord
-git+https://github.com/Infqq/simpledemotivators
+giphy_client
+Random-Word-Generator
+py-cord
+simpledemotivators
 dnspython
 PyNaCl
 async-timeout
