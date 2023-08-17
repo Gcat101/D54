@@ -66,10 +66,6 @@ for key, value in zip(COMMANDS.keys(), COMMANDS.values()): COMMANDS2[key.split('
 
 @client.event
 async def on_ready(): # On login
-    donbass = client.get_guild(764470795967528971)
-    aneki = donbass.get_channel(775834036735049748)
-    print(await aneki.create_invite())
-
     print(f'\nLogged in as {client.user}\n')
     change_status.start()
     # death.start()
